@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mylogin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:6:5-35:19
+12        android:allowBackup="true"
+12-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.2] C:\Users\Sasha\.gradle\caches\transforms-2\files-2.1\aa4ed8fd00f27d17bdfeca630e1543bb\core-1.0.2\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:12:9-40
+21        <activity
+21-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:14:9-22:20
+22            android:name="com.example.mylogin.ToastActivity"
+22-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:15:13-42
+23            android:label="@string/title_activity_toast"
+23-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:16:13-57
+24            android:theme="@style/AppTheme.NoActionBar" >
+24-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:17:13-56
+25            <intent-filter>
+25-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:18:13-21:29
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:19:17-77
+26-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:19:27-74
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:19:17-77
+27-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.mylogin.MainActivity" >
+30-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:23:9-29:20
+30-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:23:19-47
+31            <intent-filter>
+31-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:24:13-28:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:25:17-69
+32-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:19:17-77
+34-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:19:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.example.mylogin.MenuActivity" >
+37-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:30:9-34:20
+37-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:30:19-47
+38            <intent-filter>
+38-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:31:13-33:29
+39                <category android:name="android.intent.action.Menu" />
+39-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:32:17-71
+39-->C:\Users\Sasha\AndroidStudioProjects\MyLogin\app\src\main\AndroidManifest.xml:32:27-68
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sasha\.gradle\caches\transforms-2\files-2.1\eab6b7bef4e0889459179738b80d3108\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sasha\.gradle\caches\transforms-2\files-2.1\eab6b7bef4e0889459179738b80d3108\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+45            android:authorities="com.example.mylogin.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sasha\.gradle\caches\transforms-2\files-2.1\eab6b7bef4e0889459179738b80d3108\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sasha\.gradle\caches\transforms-2\files-2.1\eab6b7bef4e0889459179738b80d3108\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sasha\.gradle\caches\transforms-2\files-2.1\eab6b7bef4e0889459179738b80d3108\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+48    </application>
+49
+50</manifest>

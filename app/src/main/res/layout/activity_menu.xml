@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/menu"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="1dp"
+android:layout_marginBottom="1dp"
+android:layout_marginEnd="1dp"
+android:layout_marginRight="1dp"
+android:background="@drawable/drawable_gradient_animation_list"
+android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnToast"
+        android:background="@drawable/buttonshape"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/toast" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:background="@drawable/buttonshape"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/button" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:background="@drawable/buttonshape"
+        android:layout_width="150dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/button" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:background="@drawable/buttonshape"
+        android:layout_width="150dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/button" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:background="@drawable/buttonshape"
+        android:layout_width="150dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/button" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:background="@drawable/buttonshape"
+        android:layout_width="150dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/button" />
+</LinearLayout>

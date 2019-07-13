@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyLogin</string>
+    <string name="button">Button</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="toast">Toast</string>
+    <string name="todo">TODO</string>
+    <string name="toastfragment">ToastFragment</string>
+    <string name="title_activity_toast">ToastActivity</string>
+    <string name="Register">Register</string>
+</resources>
